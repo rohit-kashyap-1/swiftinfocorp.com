@@ -1,18 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title><%= title %></title>
-  <meta name="description" content="<%= description %>">
-  <link rel="stylesheet" href="/css/main.css" />
-  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        <%= title %>
+    </title>
+    <meta name="description" content="<%= description %>">
+    <link rel="stylesheet" href="/fonts/november-pro-light.woff2" />
+    <link rel="stylesheet" href="/fonts/november-pro-regular.woff2" />
+    <link rel="stylesheet" href="/fonts/november-pro-bold.woff2" />
+    <link rel="stylesheet" href="/css/main.css" />
+    <meta name="robots" content="noindex, nofollow">
 </head>
+
 <body>
-  <header>
-    <h1>My Website</h1>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/about">About</a>
-    </nav>
-  </header>
+    <header>
+        <nav class="container">
+            <div class="logo">Swift Infocorp</div>
+            <div class="navbar">
+                <div class="nav-item dropdown">
+                    <a href="">Services</a>
+                    <div class="dropdown-menu">
+                        <div class="container">
+                            <div class="drop-column">
+                                <h4>SERVICES</h4>
+                                <div class="subitems">
+                                    <a href="it-consulting">IT Consulting <img src="/images/right-arrow.png"
+                                            alt="It consulting"></a>
+                                    <a href="system-development">System Development <img src="/images/right-arrow.png"
+                                            alt="System Development"></a>
+                                    <a href="app-development">App Development <img src="/images/right-arrow.png"
+                                            alt="App Development"></a>
+                                    <a href="dashboard-development">Dashboard Development <img
+                                            src="/images/right-arrow.png" alt="Dashboard Development"></a>
+                                    <a href="api-development">API Development <img src="/images/right-arrow.png"
+                                            alt="API Development"></a>
+                                    <a href="front-end-development">Front-end Development <img
+                                            src="/images/right-arrow.png" alt="Front-end Development"></a>
+                                    <a href="back-end-development">Back-end Development <img
+                                            src="/images/right-arrow.png" alt="Back-end Development"></a>
+                                    <a href="shopify-development">Shopify Development <img src="/images/right-arrow.png"
+                                            alt="Shopify Development"> </a>
+                                    <a href="wordpress-development">Wordpress Development <img
+                                            src="/images/right-arrow.png" alt="Wordpress Development"></a>
+                                </div>
+                            </div>
+                            <div class="drop-column">
+                                <h4>SOLUTIONS</h4>
+                                <div class="grid-2">
+                                    <div class="subitems">
+                                        <a href="it-consulting">CMS <img src="/images/right-arrow.png"
+                                                alt="It consulting"></a>
+                                        <a href="system-development">CRM <img src="/images/right-arrow.png"
+                                                alt="System Development"></a>
+                                        <a href="app-development">E-Commerce <img src="/images/right-arrow.png"
+                                                alt="App Development"></a>
+                                        <a href="dashboard-development">E-Learning <img src="/images/right-arrow.png"
+                                                alt="Dashboard Development"></a>
+                                        <a href="api-development">Portals <img src="/images/right-arrow.png"
+                                                alt="API Development"></a>
+                                    </div>
+                                    <div class="subitems">
+                                        <a href="it-consulting">CMS <img src="/images/right-arrow.png"
+                                                alt="It consulting"></a>
+                                        <a href="system-development">CRM <img src="/images/right-arrow.png"
+                                                alt="System Development"></a>
+                                        <a href="app-development">E-Commerce <img src="/images/right-arrow.png"
+                                                alt="App Development"></a>
+                                        <a href="dashboard-development">E-Learning <img src="/images/right-arrow.png"
+                                                alt="Dashboard Development"></a>
+                                        <a href="api-development">Portals <img src="/images/right-arrow.png"
+                                                alt="API Development"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="drop-column">
+                                <h4>TECHNOLOGIES</h4>
+                                <div class="subitems">
+                                    <a href="it-consulting">SAP Commerce <img src="/images/right-arrow.png"
+                                            alt="It consulting"></a>
+                                    <a href="system-development">AWS <img src="/images/right-arrow.png"
+                                            alt="System Development"></a>
+                                    <a href="app-development">Digital Ocean <img src="/images/right-arrow.png"
+                                            alt="App Development"></a>
+                                    <a href="dashboard-development">Google Cloud <img src="/images/right-arrow.png"
+                                            alt="Dashboard Development"></a>
+                                    <a href="api-development">Azure <img src="/images/right-arrow.png"
+                                            alt="API Development"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="">Industries</a>
+                    <div class="dropdown-menu">
+                        <div class="container grid-1-3">
+                            <div class="drop-column indus">
+                                <h4 data-id="healthcare">HEALTHCARE</h4>
+                                <h4 data-id="education">EDUCATION</h4>
+                                <h4 data-id="finance">FINANCE</h4>
+                                <h4 data-id="retail">RETAIL</h4>
+                                <h4 data-id="lawtech">LAWTECH</h4>
+                            </div>
+                            <div class="drop-column">
+                                <div data-type="healthcare" class="drop-images active" style="background-image: url('/images/menu-healthcare.jpg');">
+                                </div>
+                                <div data-type="education" class="drop-images " style="background-image: url('/images/menu-edutech.jpg');">
+                                </div>
+                                <div data-type="finance" class="drop-images " style="background-image: url('/images/menu-fintech.jpg');">
+                                </div>
+                                <div data-type="retail" class="drop-images " style="background-image: url('/images/menu-retail.jpg');">
+                                </div>
+                                <div data-type="lawtech" class="drop-images " style="background-image: url('/images/menu-lawtech.jpg');">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nav-item dropdown dropdown-single">
+                    <a href="">Company</a>
+                    <div class="dropdown-menu">
+                        <div class="drop-column">
+                            <h4><a href="">ABOUT</a></h4>
+                            <h4><a href="">VISION & MISSION</a></h4>
+                            <h4><a href="">CONTACT</a></h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
